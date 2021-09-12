@@ -1,0 +1,73 @@
+body {
+  background-color: hsl(225, 100%, 94%);
+  background-image: url("images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 11px;
+  text-align: center;
+}
+
+a {
+  color: hsl(228, 45%, 44%);
+}
+
+.card {
+  border-radius: 5%;
+  display: flex;
+  margin: 20% 0;
+}
+
+.card-img-top {
+  border-top-right-radius: 5%;
+  border-top-left-radius: 5%;
+}
+
+.card-body {
+  margin: 7%;
+}
+
+.card-text {
+  color: #aaaaaa;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.card-title {
+  font-weight: 900;
+}
+
+.price-block {
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 5%;
+  padding: 5%;
+  margin-bottom: 5%;
+}
+
+.col-3 {
+  padding: 0;
+  font-size: 11px;
+}
+
+.title {
+  font-weight: 900;
+  margin-bottom: 0;
+}
+
+.cost {
+  color: #aaaaaa;
+  margin-top: 0;
+}
+
+.change {
+  color: hsl(245, 75%, 52%);
+  font-weight: 700;
+  margin: auto;
+}
+
+.payment {
+  background-color: hsl(245, 75%, 52%);
+}
+
+.cancel {
+  background-color: inherit;
+}
